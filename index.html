@@ -1,1 +1,94 @@
-Hello There !
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beach Escape</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur border-b border-gray-200 z-50">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-pink-600">BeachEscape</h1>
+        <div class="hidden md:flex space-x-6 font-semibold">
+          <a href="#about" class="hover:text-pink-600">About</a>
+          <a href="#features" class="hover:text-pink-600">Features</a>
+          <a href="#contact" class="hover:text-pink-600">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="h-screen bg-cover bg-center relative" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');">
+      <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-white text-center px-4">
+        <div>
+          <h1 class="text-4xl md:text-6xl font-bold mb-4">Escape to Serenity</h1>
+          <p class="text-lg md:text-xl mb-6">Experience the calm and beauty of our private beach resort.</p>
+          <a href="#contact" class="bg-pink-500 hover:bg-pink-600 transition px-6 py-3 rounded-full font-semibold text-white">Book Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-5xl mx-auto text-center px-4">
+        <h2 class="text-3xl font-bold mb-4 text-pink-600">About Us</h2>
+        <p class="text-gray-600 text-lg">
+          BeachEscape is your personal paradise by the sea. Whether you're looking for a weekend getaway or a long-term retreat, our resort offers luxury, peace, and unforgettable memories.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-pink-50">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-pink-600 mb-12">Why Choose Us</h2>
+        <div class="grid md:grid-cols-3 gap-8 text-center">
+          <div class="p-6 bg-white shadow rounded-lg">
+            <span class="text-4xl">🏝</span>
+            <h3 class="text-xl font-semibold mt-4 mb-2">Private Beach</h3>
+            <p class="text-gray-600">Enjoy exclusive access to our serene, private beach.</p>
+          </div>
+          <div class="p-6 bg-white shadow rounded-lg">
+            <span class="text-4xl">🌅</span>
+            <h3 class="text-xl font-semibold mt-4 mb-2">Sunset Views</h3>
+            <p class="text-gray-600">Breathtaking sunsets every evening from your balcony.</p>
+          </div>
+          <div class="p-6 bg-white shadow rounded-lg">
+            <span class="text-4xl">🍹</span>
+            <h3 class="text-xl font-semibold mt-4 mb-2">Luxury Amenities</h3>
+            <p class="text-gray-600">From spas to cocktails, everything you need to unwind.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+      <div class="max-w-3xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold text-pink-600 mb-4">Contact Us</h2>
+        <p class="text-gray-600 mb-8">Ready to book your dream vacation? Reach out to us on WhatsApp.</p>
+        <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-semibold">
+          Chat on WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-6 text-center text-sm text-gray-600">
+      © 2025 BeachEscape. All rights reserved.
+    </footer>
+
+  </body>
+</html>
